@@ -5,16 +5,22 @@ export default {
     title: 'Components/Text',
     component: Text,
     args: {
-        children: 'Lorem Ipsum.',
-        size: 'lg',
+        children: 'Lorem Ipsum.',    
+    },
+    argTypes; {
+        size: {
+            options: ['sm', 'md', 'lg']
+            control: {
+                type: 'inline-radio'
+            }
+        
+        }
     }
 
 
 } as Meta<TextProps>
 
-export const Default: StoryObj<TextProps> = {
-
-}
+export const Default: StoryObj<TextProps> = {}
 
 export const Small: StoryObj<TextProps> = {
     args: {
