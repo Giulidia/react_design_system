@@ -12,7 +12,8 @@ module.exports = {
       'gray-200': '#c4c4cc',
       'cyan-500': '#81d8f7',
       'cyan-300': '#9be1fb',
-    }
+    },
+    
     extend: {
       fontFamily: {
         sans: 'Inter, sans-serif'
